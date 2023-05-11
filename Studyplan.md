@@ -1,40 +1,66 @@
-# This is just to plan the study of aspnetcore
+# This is just to plan the study of AspnetCore
 
-- State management
-    - Cookies
-    - Session
-    - Tempdata
-    - Querysting
-    - HiddenField
-    - HttpContext.item
-    - Cache.
-        - In memory caching
-        - distributed caching
-        - Response caching
-        - Object pool.
-            - Get/Return
-- Security
-    -
+## Fundamentals
+
+- Advantage of Aspnet core.
+- Razor Pages vs MVC vs API vs Minimal API when and where to use?
+- Dependency injection
+- Host
+- Middleware / request pipeline
+- Configuration, Options
+- Logging
+- Routing
+- Error handling
+- Static files and how it is served.
+
+### MVC
+
+- Razor syntax.
+- Model binding
+- validation, error handlings
+
+## State management
+
+- Cookies
+  - Session
+  - Tempdata
+  - Querysting
+  - HiddenField
+  - HttpContext.item
+  - Cache.
+    - In memory caching
+      - distributed caching
+      - Response caching
+      - Object pool.
+        - Get/Return
+
+## Security
+
 - Localization/globalization
 - Error handling
 - Hosting
 
+## Swagger / Open api
 
-An interview questions
+- What is both of these.
+- Basic configuration
+- Customizations
+
+## An interview questions
 
 1. WAP to un-format a string (opposite of String.Format)
 2. WAP to find the most repeating character from a string. In case of ties, get the one with max ASCII value
 3. Write a full REST API with data calls, paging for big data set
 4. Write a sample business class and test with mocks
 5. Paging in SQL Server
-6. How the whole authentiation & authorization flow works
+6. How the whole authentication & authorization flow works
 7. Benefits & challenges of converting your current application to Microservices
 
 1. Remove a given node from a LL, when no _head is given
 2. From a long array of numbers, print all pairs that sum up to a given value k
 3. From a long array of numbers (from -int.MinValue to int.MaxValue), find the maximum sum sub-array, i.e. the maximum sum possible from any contiguous sub-array
 4. Find age of three sisters, with hints given
-  a. D1 * D2 * D3 = 72
+  a. D1 *D2* D3 = 72
   b. D1 + D2 + D3 = house#
   c. "The eldest daughter loves ice-cream"
 
